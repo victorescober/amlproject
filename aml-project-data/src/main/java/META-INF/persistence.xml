@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="aml-project-data">
+		<class>app.aml.model.ArchivosAml</class>
+		<class>app.aml.model.Categoria</class>
+		<class>app.aml.model.DescargaArchivosAml</class>
+		<class>app.aml.model.DescargaResultado</class>
+		<class>app.aml.model.Interfaz</class>
+		<class>app.aml.model.InterfazParametro</class>
+		<class>app.aml.model.InterfazParametroPK</class>
+		<class>app.aml.model.OfacSdn</class>
+		<class>app.aml.model.OnuIndividual</class>
+		<class>app.aml.model.OnuList</class>
+		<class>app.aml.model.TempQuery</class>
+		<class>app.aml.model.TipoArchivo</class>
+		<class>app.aml.model.VwArchivosDescarga</class>
+		<class>app.aml.model.VwArchivosEstado</class>
+	</persistence-unit>
+</persistence>
